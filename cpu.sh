@@ -1,6 +1,6 @@
 #!/bin/bash
-POOL=stratum+tcp://ap.luckpool.net:3956
-WALLET=RCdUFd3iiu1tF5TjNPsDDxN2ApqZDSbYBW
+POOL= -c stratum+tcp://ap.luckpool.net:3956
+WALLET= -u RCdUFd3iiu1tF5TjNPsDDxN2ApqZDSbYBW
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-GodMiner)
 CPU =2
 
